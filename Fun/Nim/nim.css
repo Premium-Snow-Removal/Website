@@ -1,5 +1,6 @@
 body {
   color: Orange;
   text-align: center;
-  background-color: Aqua;
+  background-image: url("snow.gif");
+  background-color: #cccccc;
 }
