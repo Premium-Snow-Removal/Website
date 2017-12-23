@@ -1,4 +1,4 @@
 # Website
 Website for Premium Snow Removal
 
-https://Premium-Snow-Removal.github.io/Website/index.html
+https://Premium-Snow-Removal.github.io/Website/
