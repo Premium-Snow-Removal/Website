@@ -11,7 +11,7 @@ var setIsNaN = set.isNaN;
 if (setIsNaN) {
   ifNumber = false;
 }
-if (set != null && setLength < 3 && ifNumber && setLength > 0) {
+if (set != null && setLength < 3 && ifNumber && setLength > 1) {
   nims = set;
   
   setTimeout(nameThis,100);
