@@ -6,12 +6,12 @@ function nameThis() {
 }
 alert("To play Nim, you choose a number of 'Nims', and then you choose whether to go first or second. You and the AI take turns removing blocks — each player may remove one to three nims, whichever player takes the last Nim wins.");
 var set = prompt("How many nim would you like to start with? ");
-var set2 = set.length;
-var set3 = set.isNaN;
-if (set3) {
+var setLength = set.length;
+var setIsNaN = set.isNaN;
+if (setIsNaN) {
   ifNumber = false;
 }
-if (set != null && set2 < 3 && ifNumber) {
+if (set != null && setLength < 3 && ifNumber && setLength > 0) {
   nims = set;
   
   setTimeout(nameThis,100);
