@@ -1,8 +1,6 @@
  var active = false;
  /*Above variable is wether or not PSR is in service*/
 function main() {
-  var active = false;
-  /*Above variable is wether or not PSR is in service*/
   var active2 = "are not";
   var message = "Sorry :(";
   if (active == true) {
