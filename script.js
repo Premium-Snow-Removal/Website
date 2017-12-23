@@ -2,7 +2,7 @@ function main() {
   var active = false;
   var active2 = "are not";
   var message = "Sorry :(";
-  if (active = true) {
+  if (active == true) {
     active2 = "are";
     message = ""
   }
