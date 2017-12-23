@@ -9,4 +9,4 @@ function main() {
   }
 document.getElementById("snowCounter").innerHTML = "We " + active2 + " in service at this time. " + message;
 }
-setTimeout(main, 0.1);
+setTimeout(main, 1);
