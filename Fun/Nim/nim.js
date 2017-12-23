@@ -4,6 +4,7 @@ var ifNumber = true;
 function nameThis() {
   document.getElementById("nims").innerHTML = "Nims Remaining: " + nims;
 }
+alert("To play Nim, one player sets up a number of piles of blocks, and the opponent chooses whether to go first or second. The players take turns removing blocks — each player may remove any number of blocks (at least one) from any one pile, and it is fine to take a whole pile — whichever player takes the last block wins.");
 var set = prompt("How many nim would you like to start with? ");
 var set2 = set.length;
 var set3 = set.isNaN;
