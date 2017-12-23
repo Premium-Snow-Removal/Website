@@ -3,24 +3,28 @@ body {
   font-weight: 400;
   color: Orange;
   text-align: center;
-  background-color: Aqua;
+  background-image: url("snow.jpg");
+  background-color: #cccccc;
 }
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: Orange;
   text-align: center;
-  background-color: Aqua;
+  background-image: url("snow.jpg");
+  background-color: #cccccc;
 }
 h1 {
   font-family: 'Atomic Age', cursive;
   color: Orange;
   text-align: center;
-  background-color: Aqua;
+  background-image: url("snow.jpg");
+  background-color: #cccccc;
 }
 h2 {
   font-family: 'Audiowide', cursive;
   color: Orange;
   text-align: center;
-  background-color: Aqua;
+  background-image: url("snow.jpg");
+  background-color: #cccccc;
 }
