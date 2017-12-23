@@ -1,3 +1,5 @@
+ var active = false;
+ /*Above variable is wether or not PSR is in service*/
 function main() {
   var active = false;
   /*Above variable is wether or not PSR is in service*/
