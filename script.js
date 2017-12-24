@@ -11,7 +11,7 @@ function timedRefresh() {
 window.onload = timedRefresh();
 //Above is code used for refreshing the page every 30m
 
-var active = false;
+var active = true;
  //Above variable is wether or not PSR is in service
 function main() {
   var active2 = "are not";
