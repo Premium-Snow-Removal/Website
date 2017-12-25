@@ -1,5 +1,7 @@
 var minuteToSecond = 60;
+//Do NOT change the value of this variable. 1 minute is always 60 seconds.
 var SecondToMillisecond = 1000;
+//Do NOT change the value of this variable. 1 second is always 1000 milliseconds.
 var updateTimeMinutes = 30;
 var updateTimeFinal = updateTimeMinutes * minuteToSecond * SecondToMillisecond;
 
@@ -11,7 +13,7 @@ function timedRefresh() {
 window.onload = timedRefresh();
 //Above is code used for refreshing the page every 30m
 
-var active = true;
+var active = false;
  //Above variable is wether or not PSR is in service
 function main() {
   var active2 = "are not";
@@ -19,7 +21,10 @@ function main() {
   if (active == true) {
     active2 = "are";
     message = ":)";
+//Above variables are used for message and are reversed from negative to positive if PSR is active	  
   }
 document.getElementById("snowCounter").innerHTML = "We " + active2 + " in service at this time. " + message;
+//message for uers on availability
+
 }
 setTimeout(main, 1);
