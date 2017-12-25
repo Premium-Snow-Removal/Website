@@ -28,3 +28,47 @@ document.getElementById("snowCounter").innerHTML = "We " + active2 + " in servic
 
 }
 setTimeout(main, 1);
+function action() {
+	var apointment = document.getElementById("select").value;
+	if (apointment == 1) {
+		while (true) {
+		var name = prompt("What is your name?");
+		var location = = prompt("Where would you like our services?");
+		var subject = "Apointment for " + name + " at " + location;
+		var body = prompt("What exactly would you like?");
+		if (subject == null||subject == null||name == null||location == null) {
+				alert("One or more catagory was cancelled");
+		}
+		else {
+			break;
+        }
+	}
+		var popupBlockerChecker = {
+			check: function(popup_window) {
+          var _scope = this;
+            if (popup_window) {
+                if(/chrome/.test(navigator.userAgent.toLowerCase())){
+                    setTimeout(function () {
+                        _scope._is_popup_blocked(_scope, popup_window);
+                     },200);
+                }else{
+                    popup_window.onload = function () {
+                        _scope._is_popup_blocked(_scope, popup_window);
+                    };
+                }
+            }else {
+                _scope._displayError();
+            }
+        },
+        _is_popup_blocked: function(scope, popup_window) {
+            if ((popup_window.innerHeight > 0)==false){ scope._displayError(); }
+        },
+        _displayError: function(){
+            alert("Popup Blocker is enabled! Please add this site to your exception list.");
+        }
+    };
+var popup = window.open("mailto:wesbob12@gmail.com" + "?subject=" + subject + "&body=" + body);
+popupBlockerChecker.check(popup);
+}
+	}
+}
