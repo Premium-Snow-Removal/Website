@@ -30,6 +30,12 @@ document.getElementById("snowCounter").innerHTML = "We " + active2 + " in servic
 setTimeout(main, 1);
 function action() {
 	var apointment = document.getElementById("select").value;
+	if (apointment == 2 && active == false) {
+		alert("ERROR: This action could not be completed because Premium Snow Removal Crew are unavailible at this time")
+	}
+	if (apointment == 1) {
+		alert("PLEASE NOTE: All appointments with times on weekdays before 4:15PM or on Tuesday or Thursday are usually unavailable and times before 9:00AM or after 5:00 will alaways be denied because Premium Snow Removal Crew are unavailible at these times. Friday times can usually be after 2:15PM or before 4:30PM")
+	}
 	if (apointment == 1||apointment == 2) {
 		while (true) {
           var time = "";
