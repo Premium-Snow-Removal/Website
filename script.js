@@ -30,12 +30,12 @@ document.getElementById("snowCounter").innerHTML = "We " + active2 + " in servic
 setTimeout(main, 1);
 function action() {
 	var apointment = document.getElementById("select").value;
-	if (apointment == 1||2) {
+	if (apointment == 1||apointment == 2) {
 		while (true) {
           var time = "";
           var name = prompt("What is your name?");
           var location = prompt("Where would you like our services?");
-          if (apointment == 2) {
+          if (apointment == 1) {
              time = " at " + prompt("When would you like us to start?");
           }
           var subject = "Apointment for " + name + " at " + location + time;
@@ -65,7 +65,7 @@ function action() {
             }
         },
         _is_popup_blocked: function(scope, popup_window) {
-            if ((popup_window.innerHeight > 0)==false){ scope._displayError(); }
+            if ((popup_window.innerHeight > 0)== false){ scope._displayError(); }
         },
         _displayError: function(){
             alert("Popup Blocker is enabled! Please add this site to your exception list.");
