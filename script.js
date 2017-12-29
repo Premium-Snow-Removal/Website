@@ -33,7 +33,7 @@ function action() {
 	if (apointment == 1) {
 		while (true) {
 		var name = prompt("What is your name?");
-		var location = = prompt("Where would you like our services?");
+		var location == prompt("Where would you like our services?");
 		var subject = "Apointment for " + name + " at " + location;
 		var body = prompt("What exactly would you like?");
 		if (subject == null||subject == null||name == null||location == null) {
