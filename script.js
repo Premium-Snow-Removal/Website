@@ -30,19 +30,23 @@ document.getElementById("snowCounter").innerHTML = "We " + active2 + " in servic
 setTimeout(main, 1);
 function action() {
 	var apointment = document.getElementById("select").value;
-	if (apointment == 1) {
+	if (apointment == 1||2) {
 		while (true) {
-		var name = prompt("What is your name?");
-		var location = prompt("Where would you like our services?");
-		var subject = "Apointment for " + name + " at " + location;
-		var body = prompt("What exactly would you like?");
-		if (subject == null||subject == null||name == null||location == null) {
+          var time = "";
+          var name = prompt("What is your name?");
+          var location = prompt("Where would you like our services?");
+          if (apointment == 2) {
+             time = " at " + prompt("When would you like us to start?");
+          }
+          var subject = "Apointment for " + name + " at " + location + time;
+          var body = prompt("What exactly would you like?");
+   
+          if (subject == null||subject == null||name == null||location == null||time == null) {
 				alert("One or more catagory was cancelled");
-		}
-		else {
-			break;
+          }else {
+            break;
+          }
         }
-	}
 		var popupBlockerChecker = {
 			check: function(popup_window) {
           var _scope = this;
@@ -71,4 +75,3 @@ var popup = window.open("mailto:wesbob12@gmail.com" + "?subject=" + subject + "&
 popupBlockerChecker.check(popup);
 }
 	}
-}
