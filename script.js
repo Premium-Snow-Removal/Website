@@ -83,7 +83,7 @@ popupBlockerChecker.check(popup);
 }
 //The section below is a hidden function developed for update team to use to determine if a customer is loyal
 function loyalty(search) {
-    var loyal = [Rebecca Howden, Vince Greco]
+    var loyal = ["Rebecca Howden", "Vince Greco"]
 	var stink = 0;
 	var message1 = "not loyal";
     for (var i = 1; i <= loyal.length(); i = i + 1) {
