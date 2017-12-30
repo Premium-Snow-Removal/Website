@@ -79,5 +79,22 @@ function action() {
     };
 var popup = window.open("mailto:wesbob12@gmail.com" + "?subject=" + subject + "&body=" + body);
 popupBlockerChecker.check(popup);
+        }
 }
-	}
+//The section below is a hidden function developed for update team to use to determine if a customer is loyal
+function loyalty(search) {
+    var loyal = [Rebecca Howden, Vince Greco]
+	var stink = 0;
+	var message1 = "not loyal";
+    for (var i = 1; i <= loyal.length(); i = i + 1) {
+        stink = loyal[i-1];
+		if (stink == search) {
+			var ifLoyal = true;
+			message1 = "loyal";
+			break;
+		}
+    }
+	alert("This customer is " + message1);
+}
+//displays loyal members
+	document.getElementById("loyalLine") = loyal;
