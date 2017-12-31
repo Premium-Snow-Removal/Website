@@ -96,5 +96,3 @@ function loyalty(search) {
     }
 	alert("This customer is " + message1);
 }
-//displays loyal members
-	document.getElementById("loyalLine") = loyal;
