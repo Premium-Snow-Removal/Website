@@ -23,6 +23,7 @@ while True:
 	print "      $$$$$$$$$"
 	print "      $$o$o$$$$"
 	print "      $$$L$$$$$"
+	print "      $$___$$$$"
 	print "      $$$$$$$$$"
 	print " $$       $$"
 	print " $$       $$"
@@ -48,79 +49,79 @@ while True:
 		#Tests the individuals separately so they can have there own scores
 		if name == "Olivia":
 			while True:
-				ggez = raw_input("Are you ready? ")
-				if ggez == "yes":
+				ifUserStart = raw_input("Are you ready? ")
+				if ifUserStart == "yes":
 					break
-				if ggez== "Yes":
+				if ifUserStart == "Yes":
 					break
 			points = 0
 			QA = raw_input("Who is the 45th President? ")
 			if QA == "Donald Trump":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Donald Trump"
 			QA = raw_input("Who is the 44th President? ")
 			if QA == "Barack Obama":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Barack Obama"
 			QA = raw_input("Who is the 43rd President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 42nd President? ")
 			if QA == "Bill Clinton":
-				points = points + 1		
-				print "Correct!" 
+				points = points + 1
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Bill Clinton"
 			QA = raw_input("Who is the 41st President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 40th President? ")
 			if 	QA == "Ronald Reagan":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ronald Reagan"
 			QA = raw_input("Who is the 39th President? ")
 			if 	QA == "Jimmy Carter":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Jimmy Carter"
 			QA = raw_input("Who is the 38th President? ")
 			if 	QA == "Gerald Ford":
 				points = points + 1
-				print "Correct!" 				
+				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "Gerald Ford"				
+				print "Gerald Ford"
 			QA = raw_input("Who is the 37th President? ")
 			if 	QA == "Richard Nixon":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Richard Nixon"
 			QA = raw_input("Who is the 36th President? ")
 			if 	QA == "Lyndon Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 				print "Lyndon Johnson"
 			else:
 				print "WRONG!!!"
@@ -128,84 +129,84 @@ while True:
 			QA = raw_input("Who is the 35th President? ")
 			if 	QA == "John Kennedy":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "John Kennedy"
 			QA = raw_input("Who is the 34th President? ")
 			if 	QA == "Dwight Eisenhower":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Dwight Eisenhower"
 			QA = raw_input("Who is the 33th President? ")
 			if 	QA == "Harry Truman":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Harry Truman"
 			QA = raw_input("Who is the 32nd President? ")
 			if 	QA == "Franklin Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Franklin Roosevelt"
 			QA = raw_input("Who is the 31st President? ")
 			if 	QA == "Herbert Hoover":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Herbert Hoover"
 			QA = raw_input("Who is the 30th President? ")
 			if 	QA == "Calvin Coolidge":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Calvin Coolidge"
 			QA = raw_input("Who is the 29th President? ")
 			if 	QA == "Warren Harding":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Warren Harding"
 			QA = raw_input("Who is the 28th President? ")
 			if 	QA == "Woodrow Wilson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Woodrow Wilson"
 			QA = raw_input("Who is the 27th President? ")
 			if 	QA == "William Taft":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William Taft"
 			QA = raw_input("Who is the 26th President? ")
 			if 	QA == "Theodore Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Theodore Roosevelt"
 			QA = raw_input("Who is the 25th President? ")
 			if 	QA == "William McKinley":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William McKinley"
 			QA = raw_input("Who is the 24th President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -219,7 +220,7 @@ while True:
 			QA = raw_input("Who is the 22nd President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -233,35 +234,35 @@ while True:
 			QA = raw_input("Who is the 20th President? ")
 			if 	QA == "James Garfield":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "James Garfield"
 			QA = raw_input("Who is the 19th President? ")
 			if 	QA == "Ruthford Hayes":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ruthford Hayes"
 			QA = raw_input("Who is the 18th President? ")
 			if 	QA == "Ulysses Grant":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ulysses Grant"
 			QA = raw_input("Who is the 17th President? ")
 			if 	QA == "Andrew Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Andrew Johnson"
 			QA = raw_input("Who is the 16th President? ")
 			if 	QA == "Abraham Lincoln":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Abraham Lincoln"
@@ -306,7 +307,7 @@ while True:
 				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "John Tyler"				
+				print "John Tyler"
 			QA = raw_input("Who is the 9th President? ")
 			if 	QA == "William Harrison":
 				points = points + 1
@@ -335,7 +336,7 @@ while True:
 			else:
 				print "WRONG!!!"
 				print "John Adams"
-			QA = raw_input("Who is the 5th President? ")				
+			QA = raw_input("Who is the 5th President? ")
 			if 	QA == "James Monroe":
 				points = points + 1
 				print "Correct!"
@@ -382,19 +383,19 @@ while True:
 				print "You are a Super Star, or did you have a peek for a few?"
 			elif points >= 30:
 				print "B+"
-				print "Awesome Job! You beat the Creater!"				
+				print "Awesome Job! You beat the Creater!"
 			elif points >= 25:
 				print "B"
-				print "Great Job!"				
+				print "Great Job!"
 			elif points >= 20:
 				print "C+"
 				print "You did pretty well!"
 			elif points >= 15:
 				print "C"
-				print "You are starting to get the hang of this!"				
+				print "You are starting to get the hang of this!"
 			elif points >= 10:
 				print "D+"
-				print "Slightly Smarter than the average American"				
+				print "Slightly Smarter than the average American"
 			elif points >= 5:
 				print "D"
 				print "You are an average American, try studying who the leaders of your own country were instead of watching TV!"
@@ -415,70 +416,70 @@ while True:
 			QA = raw_input("Who is the 45th President? ")
 			if QA == "Donald Trump":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Donald Trump"
 			QA = raw_input("Who is the 44th President? ")
 			if QA == "Barack Obama":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Barack Obama"
 			QA = raw_input("Who is the 43rd President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 42nd President? ")
 			if QA == "Bill Clinton":
-				points = points + 1		
-				print "Correct!" 
+				points = points + 1
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Bill Clinton"
 			QA = raw_input("Who is the 41st President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 40th President? ")
 			if 	QA == "Ronald Reagan":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ronald Reagan"
 			QA = raw_input("Who is the 39th President? ")
 			if 	QA == "Jimmy Carter":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Jimmy Carter"
 			QA = raw_input("Who is the 38th President? ")
 			if 	QA == "Gerald Ford":
 				points = points + 1
-				print "Correct!" 				
+				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "Gerald Ford"				
+				print "Gerald Ford"
 			QA = raw_input("Who is the 37th President? ")
 			if 	QA == "Richard Nixon":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Richard Nixon"
 			QA = raw_input("Who is the 36th President? ")
 			if 	QA == "Lyndon Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 				print "Lyndon Johnson"
 			else:
 				print "WRONG!!!"
@@ -486,84 +487,84 @@ while True:
 			QA = raw_input("Who is the 35th President? ")
 			if 	QA == "John Kennedy":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "John Kennedy"
 			QA = raw_input("Who is the 34th President? ")
 			if 	QA == "Dwight Eisenhower":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Dwight Eisenhower"
 			QA = raw_input("Who is the 33th President? ")
 			if 	QA == "Harry Truman":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Harry Truman"
 			QA = raw_input("Who is the 32nd President? ")
 			if 	QA == "Franklin Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Franklin Roosevelt"
 			QA = raw_input("Who is the 31st President? ")
 			if 	QA == "Herbert Hoover":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Herbert Hoover"
 			QA = raw_input("Who is the 30th President? ")
 			if 	QA == "Calvin Coolidge":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Calvin Coolidge"
 			QA = raw_input("Who is the 29th President? ")
 			if 	QA == "Warren Harding":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Warren Harding"
 			QA = raw_input("Who is the 28th President? ")
 			if 	QA == "Woodrow Wilson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Woodrow Wilson"
 			QA = raw_input("Who is the 27th President? ")
 			if 	QA == "William Taft":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William Taft"
 			QA = raw_input("Who is the 26th President? ")
 			if 	QA == "Theodore Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Theodore Roosevelt"
 			QA = raw_input("Who is the 25th President? ")
 			if 	QA == "William McKinley":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William McKinley"
 			QA = raw_input("Who is the 24th President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -577,7 +578,7 @@ while True:
 			QA = raw_input("Who is the 22nd President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -591,35 +592,35 @@ while True:
 			QA = raw_input("Who is the 20th President? ")
 			if 	QA == "James Garfield":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "James Garfield"
 			QA = raw_input("Who is the 19th President? ")
 			if 	QA == "Ruthford Hayes":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ruthford Hayes"
 			QA = raw_input("Who is the 18th President? ")
 			if 	QA == "Ulysses Grant":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ulysses Grant"
 			QA = raw_input("Who is the 17th President? ")
 			if 	QA == "Andrew Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Andrew Johnson"
 			QA = raw_input("Who is the 16th President? ")
 			if 	QA == "Abraham Lincoln":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Abraham Lincoln"
@@ -664,7 +665,7 @@ while True:
 				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "John Tyler"				
+				print "John Tyler"
 			QA = raw_input("Who is the 9th President? ")
 			if 	QA == "William Harrison":
 				points = points + 1
@@ -693,7 +694,7 @@ while True:
 			else:
 				print "WRONG!!!"
 				print "John Adams"
-			QA = raw_input("Who is the 5th President? ")				
+			QA = raw_input("Who is the 5th President? ")
 			if 	QA == "James Monroe":
 				points = points + 1
 				print "Correct!"
@@ -740,19 +741,19 @@ while True:
 				print "You are a Super Star, or did you have a peek for a few?"
 			elif points >= 30:
 				print "B+"
-				print "Awesome Job! You beat the Creater!"				
+				print "Awesome Job! You beat the Creater!"
 			elif points >= 25:
 				print "B"
-				print "Great Job!"				
+				print "Great Job!"
 			elif points >= 20:
 				print "C+"
 				print "You did pretty well!"
 			elif points >= 15:
 				print "C"
-				print "You are starting to get the hang of this!"				
+				print "You are starting to get the hang of this!"
 			elif points >= 10:
 				print "D+"
-				print "Slightly Smarter than the average American"				
+				print "Slightly Smarter than the average American"
 			elif points >= 5:
 				print "D"
 				print "You are an average American, try studying who the leaders of your own country were instead of watchnig TV!"
@@ -773,70 +774,70 @@ while True:
 			QA = raw_input("Who is the 45th President? ")
 			if QA == "Donald Trump":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Donald Trump"
 			QA = raw_input("Who is the 44th President? ")
 			if QA == "Barack Obama":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Barack Obama"
 			QA = raw_input("Who is the 43rd President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 42nd President? ")
 			if QA == "Bill Clinton":
-				points = points + 1		
-				print "Correct!" 
+				points = points + 1
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Bill Clinton"
 			QA = raw_input("Who is the 41st President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 40th President? ")
 			if 	QA == "Ronald Reagan":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ronald Reagan"
 			QA = raw_input("Who is the 39th President? ")
 			if 	QA == "Jimmy Carter":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Jimmy Carter"
 			QA = raw_input("Who is the 38th President? ")
 			if 	QA == "Gerald Ford":
 				points = points + 1
-				print "Correct!" 				
+				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "Gerald Ford"				
+				print "Gerald Ford"
 			QA = raw_input("Who is the 37th President? ")
 			if 	QA == "Richard Nixon":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Richard Nixon"
 			QA = raw_input("Who is the 36th President? ")
 			if 	QA == "Lyndon Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 				print "Lyndon Johnson"
 			else:
 				print "WRONG!!!"
@@ -844,84 +845,84 @@ while True:
 			QA = raw_input("Who is the 35th President? ")
 			if 	QA == "John Kennedy":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "John Kennedy"
 			QA = raw_input("Who is the 34th President? ")
 			if 	QA == "Dwight Eisenhower":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Dwight Eisenhower"
 			QA = raw_input("Who is the 33th President? ")
 			if 	QA == "Harry Truman":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Harry Truman"
 			QA = raw_input("Who is the 32nd President? ")
 			if 	QA == "Franklin Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Franklin Roosevelt"
 			QA = raw_input("Who is the 31st President? ")
 			if 	QA == "Herbert Hoover":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Herbert Hoover"
 			QA = raw_input("Who is the 30th President? ")
 			if 	QA == "Calvin Coolidge":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Calvin Coolidge"
 			QA = raw_input("Who is the 29th President? ")
 			if 	QA == "Warren Harding":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Warren Harding"
 			QA = raw_input("Who is the 28th President? ")
 			if 	QA == "Woodrow Wilson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Woodrow Wilson"
 			QA = raw_input("Who is the 27th President? ")
 			if 	QA == "William Taft":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William Taft"
 			QA = raw_input("Who is the 26th President? ")
 			if 	QA == "Theodore Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Theodore Roosevelt"
 			QA = raw_input("Who is the 25th President? ")
 			if 	QA == "William McKinley":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William McKinley"
 			QA = raw_input("Who is the 24th President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -935,7 +936,7 @@ while True:
 			QA = raw_input("Who is the 22nd President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -949,35 +950,35 @@ while True:
 			QA = raw_input("Who is the 20th President? ")
 			if 	QA == "James Garfield":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "James Garfield"
 			QA = raw_input("Who is the 19th President? ")
 			if 	QA == "Ruthford Hayes":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ruthford Hayes"
 			QA = raw_input("Who is the 18th President? ")
 			if 	QA == "Ulysses Grant":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ulysses Grant"
 			QA = raw_input("Who is the 17th President? ")
 			if 	QA == "Andrew Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Andrew Johnson"
 			QA = raw_input("Who is the 16th President? ")
 			if 	QA == "Abraham Lincoln":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Abraham Lincoln"
@@ -1022,7 +1023,7 @@ while True:
 				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "John Tyler"				
+				print "John Tyler"
 			QA = raw_input("Who is the 9th President? ")
 			if 	QA == "William Harrison":
 				points = points + 1
@@ -1051,7 +1052,7 @@ while True:
 			else:
 				print "WRONG!!!"
 				print "John Adams"
-			QA = raw_input("Who is the 5th President? ")				
+			QA = raw_input("Who is the 5th President? ")
 			if 	QA == "James Monroe":
 				points = points + 1
 				print "Correct!"
@@ -1098,19 +1099,19 @@ while True:
 				print "You are a Super Star, or did you have a peek for a few?"
 			elif points >= 30:
 				print "B+"
-				print "Awesome Job! You beat the Creater!"				
+				print "Awesome Job! You beat the Creater!"
 			elif points >= 25:
 				print "B"
-				print "Great Job!"				
+				print "Great Job!"
 			elif points >= 20:
 				print "C+"
 				print "You did pretty well!"
 			elif points >= 15:
 				print "C"
-				print "You are starting to get the hang of this!"				
+				print "You are starting to get the hang of this!"
 			elif points >= 10:
 				print "D+"
-				print "Slightly Smarter than the average American"				
+				print "Slightly Smarter than the average American"
 			elif points >= 5:
 				print "D"
 				print "You are an average American, try studying who the leaders of your own country were instead of watching TV!"
@@ -1131,70 +1132,70 @@ while True:
 			QA = raw_input("Who is the 45th President? ")
 			if QA == "Donald Trump":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Donald Trump"
 			QA = raw_input("Who is the 44th President? ")
 			if QA == "Barack Obama":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Barack Obama"
 			QA = raw_input("Who is the 43rd President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 42nd President? ")
 			if QA == "Bill Clinton":
-				points = points + 1		
-				print "Correct!" 
+				points = points + 1
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Bill Clinton"
 			QA = raw_input("Who is the 41st President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 40th President? ")
 			if 	QA == "Ronald Reagan":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ronald Reagan"
 			QA = raw_input("Who is the 39th President? ")
 			if 	QA == "Jimmy Carter":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Jimmy Carter"
 			QA = raw_input("Who is the 38th President? ")
 			if 	QA == "Gerald Ford":
 				points = points + 1
-				print "Correct!" 				
+				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "Gerald Ford"				
+				print "Gerald Ford"
 			QA = raw_input("Who is the 37th President? ")
 			if 	QA == "Richard Nixon":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Richard Nixon"
 			QA = raw_input("Who is the 36th President? ")
 			if 	QA == "Lyndon Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 				print "Lyndon Johnson"
 			else:
 				print "WRONG!!!"
@@ -1202,84 +1203,84 @@ while True:
 			QA = raw_input("Who is the 35th President? ")
 			if 	QA == "John Kennedy":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "John Kennedy"
 			QA = raw_input("Who is the 34th President? ")
 			if 	QA == "Dwight Eisenhower":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Dwight Eisenhower"
 			QA = raw_input("Who is the 33th President? ")
 			if 	QA == "Harry Truman":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Harry Truman"
 			QA = raw_input("Who is the 32nd President? ")
 			if 	QA == "Franklin Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Franklin Roosevelt"
 			QA = raw_input("Who is the 31st President? ")
 			if 	QA == "Herbert Hoover":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Herbert Hoover"
 			QA = raw_input("Who is the 30th President? ")
 			if 	QA == "Calvin Coolidge":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Calvin Coolidge"
 			QA = raw_input("Who is the 29th President? ")
 			if 	QA == "Warren Harding":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Warren Harding"
 			QA = raw_input("Who is the 28th President? ")
 			if 	QA == "Woodrow Wilson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Woodrow Wilson"
 			QA = raw_input("Who is the 27th President? ")
 			if 	QA == "William Taft":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William Taft"
 			QA = raw_input("Who is the 26th President? ")
 			if 	QA == "Theodore Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Theodore Roosevelt"
 			QA = raw_input("Who is the 25th President? ")
 			if 	QA == "William McKinley":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William McKinley"
 			QA = raw_input("Who is the 24th President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -1293,7 +1294,7 @@ while True:
 			QA = raw_input("Who is the 22nd President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -1307,35 +1308,35 @@ while True:
 			QA = raw_input("Who is the 20th President? ")
 			if 	QA == "James Garfield":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "James Garfield"
 			QA = raw_input("Who is the 19th President? ")
 			if 	QA == "Ruthford Hayes":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ruthford Hayes"
 			QA = raw_input("Who is the 18th President? ")
 			if 	QA == "Ulysses Grant":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ulysses Grant"
 			QA = raw_input("Who is the 17th President? ")
 			if 	QA == "Andrew Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Andrew Johnson"
 			QA = raw_input("Who is the 16th President? ")
 			if 	QA == "Abraham Lincoln":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Abraham Lincoln"
@@ -1380,7 +1381,7 @@ while True:
 				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "John Tyler"				
+				print "John Tyler"
 			QA = raw_input("Who is the 9th President? ")
 			if 	QA == "William Harrison":
 				points = points + 1
@@ -1409,7 +1410,7 @@ while True:
 			else:
 				print "WRONG!!!"
 				print "John Adams"
-			QA = raw_input("Who is the 5th President? ")				
+			QA = raw_input("Who is the 5th President? ")
 			if 	QA == "James Monroe":
 				points = points + 1
 				print "Correct!"
@@ -1456,19 +1457,19 @@ while True:
 				print "You are a Super Star, or did you have a peek for a few?"
 			elif points >= 30:
 				print "B+"
-				print "Awesome Job! You beat the Creater!"				
+				print "Awesome Job! You beat the Creater!"
 			elif points >= 25:
 				print "B"
-				print "Great Job!"				
+				print "Great Job!"
 			elif points >= 20:
 				print "C+"
 				print "You did pretty well!"
 			elif points >= 15:
 				print "C"
-				print "You are starting to get the hang of this!"				
+				print "You are starting to get the hang of this!"
 			elif points >= 10:
 				print "D+"
-				print "Slightly Smarter than the average American"				
+				print "Slightly Smarter than the average American"
 			elif points >= 5:
 				print "D"
 				print "You are an average American, try studying who the leaders of your own country were instead of watching TV!"
@@ -1489,70 +1490,70 @@ while True:
 			QA = raw_input("Who is the 45th President? ")
 			if QA == "Donald Trump":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Donald Trump"
 			QA = raw_input("Who is the 44th President? ")
 			if QA == "Barack Obama":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Barack Obama"
 			QA = raw_input("Who is the 43rd President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 42nd President? ")
 			if QA == "Bill Clinton":
-				points = points + 1		
-				print "Correct!" 
+				points = points + 1
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Bill Clinton"
 			QA = raw_input("Who is the 41st President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 40th President? ")
 			if 	QA == "Ronald Reagan":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ronald Reagan"
 			QA = raw_input("Who is the 39th President? ")
 			if 	QA == "Jimmy Carter":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Jimmy Carter"
 			QA = raw_input("Who is the 38th President? ")
 			if 	QA == "Gerald Ford":
 				points = points + 1
-				print "Correct!" 				
+				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "Gerald Ford"				
+				print "Gerald Ford"
 			QA = raw_input("Who is the 37th President? ")
 			if 	QA == "Richard Nixon":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Richard Nixon"
 			QA = raw_input("Who is the 36th President? ")
 			if 	QA == "Lyndon Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 				print "Lyndon Johnson"
 			else:
 				print "WRONG!!!"
@@ -1560,84 +1561,84 @@ while True:
 			QA = raw_input("Who is the 35th President? ")
 			if 	QA == "John Kennedy":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "John Kennedy"
 			QA = raw_input("Who is the 34th President? ")
 			if 	QA == "Dwight Eisenhower":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Dwight Eisenhower"
 			QA = raw_input("Who is the 33th President? ")
 			if 	QA == "Harry Truman":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Harry Truman"
 			QA = raw_input("Who is the 32nd President? ")
 			if 	QA == "Franklin Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Franklin Roosevelt"
 			QA = raw_input("Who is the 31st President? ")
 			if 	QA == "Herbert Hoover":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Herbert Hoover"
 			QA = raw_input("Who is the 30th President? ")
 			if 	QA == "Calvin Coolidge":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Calvin Coolidge"
 			QA = raw_input("Who is the 29th President? ")
 			if 	QA == "Warren Harding":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Warren Harding"
 			QA = raw_input("Who is the 28th President? ")
 			if 	QA == "Woodrow Wilson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Woodrow Wilson"
 			QA = raw_input("Who is the 27th President? ")
 			if 	QA == "William Taft":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William Taft"
 			QA = raw_input("Who is the 26th President? ")
 			if 	QA == "Theodore Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Theodore Roosevelt"
 			QA = raw_input("Who is the 25th President? ")
 			if 	QA == "William McKinley":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William McKinley"
 			QA = raw_input("Who is the 24th President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -1651,7 +1652,7 @@ while True:
 			QA = raw_input("Who is the 22nd President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -1665,35 +1666,35 @@ while True:
 			QA = raw_input("Who is the 20th President? ")
 			if 	QA == "James Garfield":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "James Garfield"
 			QA = raw_input("Who is the 19th President? ")
 			if 	QA == "Ruthford Hayes":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ruthford Hayes"
 			QA = raw_input("Who is the 18th President? ")
 			if 	QA == "Ulysses Grant":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ulysses Grant"
 			QA = raw_input("Who is the 17th President? ")
 			if 	QA == "Andrew Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Andrew Johnson"
 			QA = raw_input("Who is the 16th President? ")
 			if 	QA == "Abraham Lincoln":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Abraham Lincoln"
@@ -1738,7 +1739,7 @@ while True:
 				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "John Tyler"				
+				print "John Tyler"
 			QA = raw_input("Who is the 9th President? ")
 			if 	QA == "William Harrison":
 				points = points + 1
@@ -1767,7 +1768,7 @@ while True:
 			else:
 				print "WRONG!!!"
 				print "John Adams"
-			QA = raw_input("Who is the 5th President? ")				
+			QA = raw_input("Who is the 5th President? ")
 			if 	QA == "James Monroe":
 				points = points + 1
 				print "Correct!"
@@ -1814,19 +1815,19 @@ while True:
 				print "You are a Super Star, or did you have a peek for a few?"
 			elif points >= 30:
 				print "B+"
-				print "Awesome Job! You beat the Creater!!"				
+				print "Awesome Job! You beat the Creater!!"
 			elif points >= 25:
 				print "B"
-				print "Great Job!"				
+				print "Great Job!"
 			elif points >= 20:
 				print "C+"
 				print "You did pretty well!"
 			elif points >= 15:
 				print "C"
-				print "You are starting to get the hang of this!"				
+				print "You are starting to get the hang of this!"
 			elif points >= 10:
 				print "D+"
-				print "Slightly Smarter than the average American"				
+				print "Slightly Smarter than the average American"
 			elif points >= 5:
 				print "D"
 				print "You are an average American, try studying who the leaders of your own country were instaed of watching TV!"
@@ -1837,7 +1838,7 @@ while True:
 			if A_points < points:
 				 A_points = points
 	if menu == "Repetition":
-		if 1==1:	
+		if 1==1:
 			while True:
 				ggez = raw_input("Are you ready? ")
 				if ggez == "yes":
@@ -1849,24 +1850,24 @@ while True:
 				QA = raw_input("Who is the 45th President? ")
 				if QA == "Donald Trump":
 					points = points + 1
-					print "Correct!" 
+					print "Correct!"
 					break
 			while True:
 				QA = raw_input("Who is the 44th President? ")
 				if QA == "Barack Obama":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 43rd President? ")
 				if QA == "George Bush":
 					points = points + 1
-					print "Correct!" 
+					print "Correct!"
 					break
 			while True:
 				QA = raw_input("Who is the 42nd President? ")
 				if QA == "Bill Clinton":
-					points = points + 1		
+					points = points + 1
 					print "Correct!"
 					break
 			while True:
@@ -1874,111 +1875,111 @@ while True:
 				if QA == "George Bush":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 40th President? ")
 				if 	QA == "Ronald Reagan":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 39th President? ")
 				if QA == "Jimmy Carter":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 38th President? ")
 				if QA == "Gerald Ford":
 					points = points + 1
 					print "Correct!"
-					break 							
+					break
 			while True:
 				QA = raw_input("Who is the 37th President? ")
 				if QA == "Richard Nixon":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 36th President? ")
 				if QA == "Lyndon Johnson":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 
 			while True:
 				QA = raw_input("Who is the 35th President? ")
 				if QA == "John Kennedy":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 34th President? ")
 				if QA == "Dwight Eisenhower":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 33th President? ")
-			
+
 				if QA == "Harry Truman":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 32nd President? ")
 				if 	QA == "Franklin Roosevelt":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 31st President? ")
 				if 	QA == "Herbert Hoover":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 30th President? ")
 				if 	QA == "Calvin Coolidge":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 29th President? ")
 				if 	QA == "Warren Harding":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 28th President? ")
 				if 	QA == "Woodrow Wilson":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 27th President? ")
 				if 	QA == "William Taft":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 26th President? ")
 				if 	QA == "Theodore Roosevelt":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 25th President? ")
 				if 	QA == "William McKinley":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 24th President? ")
 				if 	QA == "Grover Cleveland":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 23th President? ")
 				if 	QA == "Benjamin Harrison":
@@ -1990,7 +1991,7 @@ while True:
 				if 	QA == "Grover Cleveland":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 21st President? ")
 				if 	QA == "Chester Arthur":
@@ -2002,31 +2003,31 @@ while True:
 				if 	QA == "James Garfield":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 19th President? ")
 				if 	QA == "Ruthford Hayes":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 18th President? ")
 				if 	QA == "Ulysses Grant":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 17th President? ")
 				if 	QA == "Andrew Johnson":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 16th President? ")
 				if 	QA == "Abraham Lincoln":
 					points = points + 1
 					print "Correct!"
-					break 
+					break
 			while True:
 				QA = raw_input("Who is the 15th President? ")
 				if 	QA == "James Buchanan":
@@ -2088,7 +2089,7 @@ while True:
 					print "Correct!"
 					break
 			while True:
-				QA = raw_input("Who is the 5th President? ")				
+				QA = raw_input("Who is the 5th President? ")
 				if 	QA == "James Monroe":
 					points = points + 1
 					print "Correct!"
@@ -2126,80 +2127,80 @@ while True:
 					int(target)
 					break
 				except ValueError:
-					print "Scammer"	
+					print "Scammer"
 			if ggez== "Yes":
 				target = raw_input("What is your Goal?(How many presidents you would like to get correct in this session) ")
 				if target.isint():
 					break
-		while True:			
+		while True:
 			points = 0
 			QA = raw_input("Who is the 45th President? ")
 			if QA == "Donald Trump":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Donald Trump"
 			QA = raw_input("Who is the 44th President? ")
 			if QA == "Barack Obama":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Barack Obama"
 			QA = raw_input("Who is the 43rd President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 42nd President? ")
 			if QA == "Bill Clinton":
-				points = points + 1		
-				print "Correct!" 
+				points = points + 1
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Bill Clinton"
 			QA = raw_input("Who is the 41st President? ")
 			if QA == "George Bush":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "George Bush"
 			QA = raw_input("Who is the 40th President? ")
 			if 	QA == "Ronald Reagan":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ronald Reagan"
 			QA = raw_input("Who is the 39th President? ")
 			if 	QA == "Jimmy Carter":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Jimmy Carter"
 			QA = raw_input("Who is the 38th President? ")
 			if 	QA == "Gerald Ford":
 				points = points + 1
-				print "Correct!" 				
+				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "Gerald Ford"				
+				print "Gerald Ford"
 			QA = raw_input("Who is the 37th President? ")
 			if 	QA == "Richard Nixon":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Richard Nixon"
 			QA = raw_input("Who is the 36th President? ")
 			if 	QA == "Lyndon Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 				print "Lyndon Johnson"
 			else:
 				print "WRONG!!!"
@@ -2207,84 +2208,84 @@ while True:
 			QA = raw_input("Who is the 35th President? ")
 			if 	QA == "John Kennedy":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "John Kennedy"
 			QA = raw_input("Who is the 34th President? ")
 			if 	QA == "Dwight Eisenhower":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Dwight Eisenhower"
 			QA = raw_input("Who is the 33th President? ")
 			if 	QA == "Harry Truman":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Harry Truman"
 			QA = raw_input("Who is the 32nd President? ")
 			if 	QA == "Franklin Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Franklin Roosevelt"
 			QA = raw_input("Who is the 31st President? ")
 			if 	QA == "Herbert Hoover":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Herbert Hoover"
 			QA = raw_input("Who is the 30th President? ")
 			if 	QA == "Calvin Coolidge":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Calvin Coolidge"
 			QA = raw_input("Who is the 29th President? ")
 			if 	QA == "Warren Harding":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Warren Harding"
 			QA = raw_input("Who is the 28th President? ")
 			if 	QA == "Woodrow Wilson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Woodrow Wilson"
 			QA = raw_input("Who is the 27th President? ")
 			if 	QA == "William Taft":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William Taft"
 			QA = raw_input("Who is the 26th President? ")
 			if 	QA == "Theodore Roosevelt":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Theodore Roosevelt"
 			QA = raw_input("Who is the 25th President? ")
 			if 	QA == "William McKinley":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "William McKinley"
 			QA = raw_input("Who is the 24th President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -2298,7 +2299,7 @@ while True:
 			QA = raw_input("Who is the 22nd President? ")
 			if 	QA == "Grover Cleveland":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Grover Cleveland"
@@ -2312,35 +2313,35 @@ while True:
 			QA = raw_input("Who is the 20th President? ")
 			if 	QA == "James Garfield":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "James Garfield"
 			QA = raw_input("Who is the 19th President? ")
 			if 	QA == "Ruthford Hayes":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ruthford Hayes"
 			QA = raw_input("Who is the 18th President? ")
 			if 	QA == "Ulysses Grant":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Ulysses Grant"
 			QA = raw_input("Who is the 17th President? ")
 			if 	QA == "Andrew Johnson":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Andrew Johnson"
 			QA = raw_input("Who is the 16th President? ")
 			if 	QA == "Abraham Lincoln":
 				points = points + 1
-				print "Correct!" 
+				print "Correct!"
 			else:
 				print "WRONG!!!"
 				print "Abraham Lincoln"
@@ -2385,7 +2386,7 @@ while True:
 				print "Correct!"
 			else:
 				print "WRONG!!!"
-				print "John Tyler"				
+				print "John Tyler"
 			QA = raw_input("Who is the 9th President? ")
 			if 	QA == "William Harrison":
 				points = points + 1
@@ -2414,7 +2415,7 @@ while True:
 			else:
 				print "WRONG!!!"
 				print "John Adams"
-			QA = raw_input("Who is the 5th President? ")				
+			QA = raw_input("Who is the 5th President? ")
 			if 	QA == "James Monroe":
 				points = points + 1
 				print "Correct!"
@@ -2453,9 +2454,9 @@ while True:
 			if int(target) > points:
 				raw_input("Try Again :(")
 			else:
-				print "Success!!!"	
+				print "Success!!!"
 				break
-		raw_input("Press anything to continue: ")					
+		raw_input("Press anything to continue: ")
 	if menu == "Read the leaderboard": #Set the stats
 		alist = [A_points, "Alexander"]
 		olist = [O_points, "Olivia"]
@@ -2463,8 +2464,8 @@ while True:
 		rlist = [R_points, "Rebecca"]
 		jlist = [J_points, "Jonathan"]
 		#Combine the stats
-		leaderboard = [alist, 
-		olist, 
+		leaderboard = [alist,
+		olist,
 		jlist, vlist,
 		 rlist]
 		#Order the stats
