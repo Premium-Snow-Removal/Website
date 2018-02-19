@@ -1,24 +1,24 @@
 body {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-family 'Quicksand', sans-serif;
+  font-weight 400;
   color: Orange;
-  text-align: center;
-  background-image: url("snow.jpg");
-  background-color: #cccccc;
+  text-align center;
+  background-image url("snow.jpg");
+  background-color #cccccc;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: Orange;
-  text-align: center;
+  font-family 'Open Sans', sans-serif;
+  font-weight 300;
+  color Orange;
+  text-align center;
 }
 h1 {
-  font-family: 'Atomic Age', cursive;
-  color: Orange;
-  text-align: center;
+  font-family 'Atomic Age', cursive;
+  color Orange;
+  text-align center;
 }
 h2 {
-  font-family: 'Audiowide', cursive;
-  color: Orange;
-  text-align: center;
+  font-family 'Audiowide', cursive;
+  color Orange;
+  text-align center;
 }
