@@ -23,12 +23,12 @@ function main() {
     message = ":)";
 //Above variables are used for message and are reversed from negative to positive if PSR is active	  
   }
-document.getElementById("snowCounter").innerHTML = "We " + active2 + " in service at this time. " + message;
+documentGetElementById("snowCounter").innerHTML = "We " + active2 + " in service at this time. " + message;
 //message for uers on availability
 
 }
 setTimeout(main, 1);
-function action() {
+function action {
 	var apointment = document.getElementById("select").value;
 	if (apointment == 2 && active == false) {
 		alert("ERROR: This action could not be completed because Premium Snow Removal Crew are unavailible at this time")
