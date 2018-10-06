@@ -28,8 +28,8 @@
       <div class="w3-container w3-teal">
          <h2>Appointment</h2>
       </div>
-        <form class="w3-container" onsubmit="db.collection("appointments").add({time: document.getElementById("time"),
-    front: document.getElementById("front"), front: document.getElementById("back");
+        <form class="w3-container" onsubmit="db.collection("appointments").add({time: document.getElementById("time").value,
+    front: document.getElementById("front").value, front: document.getElementById("back").value;
 })">
         <label>Time of Appointment</label>
         <input class="w3-input" type="text" id="time">
