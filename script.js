@@ -23,6 +23,6 @@ function main() {
 		message = ":)";
 //Above variables are used for message and are reversed from negative to positive if PSR is active	  
   }
-document.GetElementById("report").innerHTML = "We " + active2 + " in service at this time. " + message;
+document.getElementById("report").innerHTML = "We " + active2 + " in service at this time. " + message;
 }
 setTimeout(main, 1);
