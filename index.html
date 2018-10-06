@@ -29,8 +29,8 @@
          <h2>Appointment</h2>
       </div>
         <form class="w3-container" onsubmit="db.collection("appointments").add({time: document.getElementById("time").value,
-    front: document.getElementById("front").value, front: document.getElementById("back").value;
-})">
+    front: document.getElementById("front").value, front: document.getElementById("back").value}).then(function() {
+    console.log("Document successfully written!")});">
         <label>Time of Appointment</label>
         <input class="w3-input" type="text" id="time">
           
