@@ -4,7 +4,6 @@ var SecondToMillisecond = 1000;
 //Do NOT change the value of this variable. 1 second is always 1000 milliseconds.
 var updateTimeMinutes = 30;
 var updateTimeFinal = updateTimeMinutes * minuteToSecond * SecondToMillisecond;
-var read = new FileReader();
 function timedRefresh() {
 	setTimeout("location.reload(true);", updateTimeFinal);
 	//1800000 is equal to 30m, which is the time frame for updates on stats like report
