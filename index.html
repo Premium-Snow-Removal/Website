@@ -24,10 +24,46 @@
           </div>
         <p id="report">Error: report could not be obtained</p>
       </div>
+      <div class="w3-card-4">
+      <div class="w3-container w3-teal">
+         <h2>Appointment</h2>
+      </div>
+        <form class="w3-container" onsubmit="db.collection("appointments").add({time: document.getElementById("time"),
+    front: document.getElementById("front"), front: document.getElementById("back");
+})">
+        <label>Time of Appointment</label>
+        <input class="w3-input" type="text" id="time">
+          
+        <input class="w3-check" type="checkbox" id="front">
+        <label>Front</label>
+          
+        <input class="w3-check" type="checkbox" id="back">
+        <label>Back</label>
+          
+        <input class="w3-btn w3-teal" type="submit" value="Submit">
+        </form>
+      </div>
     <a href='Fun/Nim/nim.html'>Visit this link to play a fun Game!</a>
     <p>
       <!-- <a href='wheel.html'>Visit this link to spin a fun wheel!</a> -->
     </p>
   </div>
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCtO3LGXu0DnjCpBvW5zoSGrQQnnzkpAVs",
+    authDomain: "premium-snow-removal.firebaseapp.com",
+    databaseURL: "https://premium-snow-removal.firebaseio.com",
+    projectId: "premium-snow-removal",
+    storageBucket: "premium-snow-removal.appspot.com",
+    messagingSenderId: "884367669444"
+  };
+  firebase.initializeApp(config);
+    </script>
   </body>
 <html>
