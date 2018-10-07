@@ -28,9 +28,7 @@
       <div class="w3-container w3-teal">
          <h2>Appointment</h2>
       </div>
-        <form class="w3-container" onsubmit="db.collection("appointments").add({time: document.getElementById("time").value,
-    front: document.getElementById("front").value, front: document.getElementById("back").value}).then(function() {
-    console.log("Document successfully written!")});">
+        <form class="w3-container" onsubmit="appointment(document.getElementById("time").value,document.getElementById("front").value,document.getElementById("back").value)">
         <label>Time of Appointment</label>
         <input class="w3-input" type="text" id="time">
           
@@ -48,22 +46,5 @@
       <!-- <a href='wheel.html'>Visit this link to spin a fun wheel!</a> -->
     </p>
   </div>
-<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-app.js"></script>
-
-<!-- Add additional services that you want to use -->
-<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCtO3LGXu0DnjCpBvW5zoSGrQQnnzkpAVs",
-    authDomain: "premium-snow-removal.firebaseapp.com",
-    databaseURL: "https://premium-snow-removal.firebaseio.com",
-    projectId: "premium-snow-removal",
-    storageBucket: "premium-snow-removal.appspot.com",
-    messagingSenderId: "884367669444"
-  };
-  firebase.initializeApp(config);
-    </script>
   </body>
 <html>
