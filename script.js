@@ -25,3 +25,5 @@ function main() {
 document.getElementById("report").innerHTML = "We " + active2 + " in service at this time. " + message;
 }
 setTimeout(main, 1);
+function appointment(time, front, back) {
+	alert("An appointment is registered for " + time + ". Front:" + front + ". Back:" + back + "}
