@@ -28,3 +28,10 @@ setTimeout(main, 1);
 function appointment(time, front, back) {
 	alert("An appointment is registered for " + time + ". Front:" + front + ". Back:" + back + ".");
 }
+function getFormData(){ 
+	var time=document.getElementById('time').value;
+	var front=document.getElementById('front').value;
+	var back=document.getElementById('back').value;
+	/* some other fields */
+	appointment(time, front, back);
+}
